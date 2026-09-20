@@ -22,6 +22,7 @@ public class CharacterProgress {
 	private String personalQuest = "";
 	@Required
 	private LinkedList<Integer> personalQuestProgress = new LinkedList<>();
+	private boolean personalQuestAutotrack = false;
 	private int battleGoals = 0;
 	private String notes = "";
 	private boolean retired = false;

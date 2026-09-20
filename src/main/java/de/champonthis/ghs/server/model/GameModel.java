@@ -85,6 +85,8 @@ public class GameModel {
 	@Required
 	private LinkedList<String> unlockedCharacters = new LinkedList<>();
 	@Required
+	private LinkedList<String> unlockedPersonalQuests = new LinkedList<>();
+	@Required
 	private boolean server = false;
 	private Integer serverPing;
 	private ScenarioFinish finish;
